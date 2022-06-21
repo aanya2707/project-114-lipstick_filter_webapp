@@ -1,0 +1,22 @@
+.btn-info
+{
+    font-size: 30;
+}
+
+.btn-success:hover
+{
+    background-color: lightblue;
+}
+
+canvas 
+{
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from{box-shadow:1px 1px 100px blueviolet;}
+    to{box-shadow:1px 1px 100px lightpink;}
+}
